@@ -10,6 +10,8 @@ public class PushCodeToGIT {
 		WebDriver driver = new FirefoxDriver();
 		
 		driver.get("http://www.gmail.com");
+		
+		driver.quit();
 	}
 
 }
